@@ -19,6 +19,15 @@ beadwork) to Latina women in the US. Store: [osmossi.com](https://www.osmossi.co
 
 The **bags** are the core line and the main price-benchmark set.
 
+## Storefront links
+- Product page: `https://www.osmossi.com/product/<handle>`
+- Collection: `https://www.osmossi.com/shop?collection=<handle>` (the home page lists collections)
+
+## Shipping (from Shopify, 2026-11-19)
+- Ships from **Boca Raton, FL**.
+- US Standard: **free on orders $70+**, $8 under $70. US Express: $15.
+- International: 27 countries via USPS / DHL Express (calculated rates).
+
 ## Goals
 - Revenue: **$5,000–6,000 per month**, growing **10–20% year over year**.
 - Baseline: the store is live and **waiting for its first sale** (as of 2026-11-19).
@@ -26,7 +35,7 @@ The **bags** are the core line and the main price-benchmark set.
 ## Team
 - **Juan Pablo**: final decision maker.
 - **Andrea**: approves content and publishing.
-- **Lucelly**: partner. TODO(input): her role in marketing, if any.
+- **Lucelly**: partner; no marketing role for now.
 
 ## Systems
 - Osmossi ERP (CRM › Marketing: social calendar, month plan, week focus, trends, store results)

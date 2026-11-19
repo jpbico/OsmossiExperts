@@ -25,9 +25,9 @@ Owner agent: `market-intelligence`. Runs weekly and writes to the ERP Trends boa
 5. **Deduplicate:** if a trend already in the ERP covers it, `update_trend` (new stat, new
    `checked_on`) instead of adding a new one.
 6. **Write** each new trend with `create_trend`:
-   - `source`: the ERP accepts only `google`, `pinterest`, `etsy` or `amazon`. Use the one the
-     evidence came from. Instagram-only findings and holiday moments have no matching source:
-     put them in the weekly brief only, until the ERP adds a source for them.
+   - `source`: `google`, `pinterest`, `etsy`, `amazon`, `instagram` or `holiday` (holiday and
+     cultural moments). Use the one the evidence came from. If the ERP refuses `instagram` or
+     `holiday`, the ERP app has not been republished yet: put those in the brief and say so.
    - `headline`, `headline_stat`, `meaning` (one or two plain sentences on what it means for
      Osmossi), `try_this` (one concrete action naming a product), `source_url`, `source_name`,
      `checked_on` (today), `strength`.

@@ -2,24 +2,13 @@
 
 We fill this one agent at a time. Answers go into `context/` and each agent's file.
 
-## 0 · Foundations: answered 2026-11-19
-Open follow-ups:
-- Paste the brand-voice instructions from the claude.ai project "AL Media Editor for Osmossi".
-- Lucelly's role in marketing, if any.
-- Spend under $30 skips approval: per item, with a weekly cap of $30 total?
+## 0 · Foundations: done 2026-11-19
+## 1 · Market Intelligence: done 2026-11-19
+- Open: Copper Shop's website, copershop.com or coppershop.com?
 
-## 1 · Market Intelligence: answered 2026-11-19
-Open follow-ups:
-- Coper Shop's Instagram handle: @thecopershop?
-- Which Latin American celebrities to watch.
-- The ERP Trends board only accepts Google, Pinterest, Etsy and Amazon as sources. Add
-  Instagram and Holiday as sources, or keep those in the weekly brief only?
-
-## 2 · Growth Planner Agent
-1. How you plan today: month plan / week focus in the ERP, who writes it.
-2. Rules for picking hero products (margin, stock, seasonality, newness).
-3. Bundles / gift guides: allowed discount depth, minimum margin.
-4. Monthly marketing budget and organic vs paid split.
+## 2 · Growth Planner: done 2026-11-19
+- Open: minimum margin per order for bundles; product costs entered in Shopify?
+- Open: shipping carrier and handling time (for order-by dates).
 
 ## 3 · Content Studio Agent
 1. Canva brand kit name; SharePoint "Leales" folder path for photos.

@@ -3,13 +3,15 @@
 ## Competitors
 | Brand | Site | Instagram |
 |-------|------|-----------|
-| Coper Shop | https://copershop.com | [@thecopershop](https://www.instagram.com/thecopershop/) — TODO(input): handle given as "thecopersho"; confirm |
+| Copper Shop | https://copershop.com (as given; confirm whether it is coppershop.com) | [@thecoppershop](https://www.instagram.com/thecoppershop/) |
 | Lombia | https://lombia.co | [@lombiawayuubags](https://www.instagram.com/lombiawayuubags/) |
 | Helecho Collective | https://helechocollective.com | [@helecho.collective](https://www.instagram.com/helecho.collective/) |
 | Maracuyá | https://maracuyapr.com | [@maracuyaswimwearpr](https://www.instagram.com/maracuyaswimwearpr/) |
 
 ## Also watch
-- Latin American celebrities who wear or post this kind of product. TODO(input): names or handles.
+- Latin American celebrities who wear or post this kind of product: **Shakira, Sofía Vergara,
+  Valerie Domínguez**, and similar (Colombian / Latina style figures). Note when one of them
+  wears woven, Wayuu or beaded bags; never imply they endorse Osmossi.
 
 ## Hashtags
 - **Craft and origin:** #wayuubag #mochilawayuu #chaquira #handmadeincolombia #hechoencolombia #artesaniacolombiana
