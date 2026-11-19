@@ -10,6 +10,12 @@ interim notes below and flag any copy as "voice not yet verified".
 - Pair heritage with elegance: "timeless", "refined", "sophisticated", "contemporary design".
 - Store URL in every call to action: "Shop at osmossi.com".
 
+## Wording rules (from the ERP month plan, November 2026)
+- Say "handmade in small batches". Never "one of a kind" or "last one".
+- Osmossi **curates**; it does not manufacture. Never say "we make" or "our workshop".
+- No blanket discounts: use a value offer (shipping, gift note, wrapping) instead.
+- Every product post links to its product page (not the homepage), with UTM tags.
+
 ## Rules already set by the Content Creation Guide
 - Artisan and origin details: only what we know to be true.
 - Logo used as supplied: never stretched or recolored.

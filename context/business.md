@@ -1,11 +1,11 @@
 # Osmossi: business context
 
-Osmossi sells handmade Colombian accessories and home decor (Wayuu weaving, palm fiber and
+Osmossi curates and sells handmade Colombian accessories and home decor (Wayuu weaving, palm fiber and
 beadwork) to Latina women in the US. Store: [osmossi.com](https://www.osmossi.com)
 (Shopify `osmossi.myshopify.com`, Basic plan, USD, Eastern time).
 
 ## Catalog (from Shopify, 2026-11-19)
-43 products, 42 active. Most pieces are one of a kind or have 1-2 units in stock.
+43 products, 42 active. Most products have only 1–2 units in stock.
 **Always read live stock and prices from Shopify; this table is a snapshot.**
 
 | Line | Vendor | Products | Price (USD) |
