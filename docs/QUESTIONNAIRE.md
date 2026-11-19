@@ -2,19 +2,18 @@
 
 We fill this one agent at a time. Answers go into `context/` and each agent's file.
 
-## 0 · Foundations (all agents)
-1. What Osmossi sells: categories, price range, hero products; store URL(s); Shopify vs Lovable role.
-2. Brand voice: 3-5 adjectives, language per channel, words to use / avoid, 2-3 example posts.
-3. Audience: age, US states/metros, communities, self-purchase vs gifting, main buying objections.
-4. Goals: monthly revenue / orders / traffic targets and today's baseline.
-5. Approval gates: who approves publishing, spend, terms, prices; any no-approval spend limit.
+## 0 · Foundations: answered 2026-11-19
+Open follow-ups:
+- Paste the brand-voice instructions from the claude.ai project "AL Media Editor for Osmossi".
+- Lucelly's role in marketing, if any.
+- Spend under $30 skips approval: per item, with a weekly cap of $30 total?
 
-## 1 · Market Intelligence Agent
-1. Top 3-5 competitors (site + Instagram handle) and 2-3 brands you admire.
-2. Trend sources: Instagram accounts, Pinterest boards, hashtags to watch.
-3. Holiday / moment calendar beyond US holidays (Día de las Madres, quinceañeras, Navidad...).
-4. Which products to price-benchmark, and target margin / price position (premium, mid, value).
-5. Cadence and output: weekly brief? Save trends into the ERP Trends board automatically?
+## 1 · Market Intelligence: answered 2026-11-19
+Open follow-ups:
+- Coper Shop's Instagram handle: @thecopershop?
+- Which Latin American celebrities to watch.
+- The ERP Trends board only accepts Google, Pinterest, Etsy and Amazon as sources. Add
+  Instagram and Holiday as sources, or keep those in the weekly brief only?
 
 ## 2 · Growth Planner Agent
 1. How you plan today: month plan / week focus in the ERP, who writes it.

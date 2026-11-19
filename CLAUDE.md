@@ -27,7 +27,9 @@ Learn the market → plan the offer → create content → attract buyers → co
 - `context/business.md`: what Osmossi sells, store, goals, partners
 - `context/brand.md`: voice, language, visual identity, claims rules
 - `context/audience.md`: who we sell to
-- `context/approval-gates.md`: what always needs a human yes
+- `context/approval-gates.md`: what always needs a human yes, and who approves it
+- `context/content-formats.md`: format sizes, production steps, pre-post checklist
+- `context/market-watchlist.md`: competitors, hashtags, moments calendar
 
 Sections marked `TODO(input)` are still waiting on answers from the partners. Agents must not
 invent facts to fill them; they say what is missing instead.
