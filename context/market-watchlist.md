@@ -3,7 +3,7 @@
 ## Competitors
 | Brand | Site | Instagram |
 |-------|------|-----------|
-| Copper Shop | https://copershop.com (as given; confirm whether it is coppershop.com) | [@thecoppershop](https://www.instagram.com/thecoppershop/) |
+| Coper Shop | https://copershop.com | [@thecopershop](https://www.instagram.com/thecopershop/) |
 | Lombia | https://lombia.co | [@lombiawayuubags](https://www.instagram.com/lombiawayuubags/) |
 | Helecho Collective | https://helechocollective.com | [@helecho.collective](https://www.instagram.com/helecho.collective/) |
 | Maracuyá | https://maracuyapr.com | [@maracuyaswimwearpr](https://www.instagram.com/maracuyaswimwearpr/) |

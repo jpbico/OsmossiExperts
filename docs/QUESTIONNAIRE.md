@@ -4,7 +4,6 @@ We fill this one agent at a time. Answers go into `context/` and each agent's fi
 
 ## 0 · Foundations: done 2026-11-19
 ## 1 · Market Intelligence: done 2026-11-19
-- Open: Copper Shop's website, copershop.com or coppershop.com?
 
 ## 2 · Growth Planner: done 2026-11-19
 - Open: minimum margin per order for bundles; product costs entered in Shopify?
