@@ -1,6 +1,6 @@
 # OsmossiExperts
 
-The Osmossi marketing agent team: 8 Claude Code agents and 30 skills that run the Osmossi
+The Osmossi marketing agent team: 8 Claude Code agents and 28 skills that run the Osmossi
 growth cycle (understand the market → plan → create → attract → convert → measure → keep).
 
 - Project rules and the agent map: [`CLAUDE.md`](CLAUDE.md)
