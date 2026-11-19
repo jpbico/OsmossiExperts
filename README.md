@@ -1,1 +1,1 @@
-# FAUExperts
+# OsmossiExperts
