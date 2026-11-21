@@ -1,6 +1,6 @@
 ---
 name: competitor-scan
-description: Scan Osmossi's competitors (Coper Shop, Lombia, Helecho Collective, Maracuyá) on their websites and Instagram for new products, prices, offers and messaging. Use for the weekly market brief or when a competitor makes a move.
+description: Scan Osmossi's competitors (Coper Shop, Lombia, Helecho Collective, Maracuyá, Carteras Perla Caribe) on their websites and Instagram for new products, prices, offers and messaging. Use for the weekly market brief or when a competitor makes a move.
 ---
 
 # competitor-scan

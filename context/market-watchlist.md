@@ -7,6 +7,7 @@
 | Lombia | https://lombia.co | [@lombiawayuubags](https://www.instagram.com/lombiawayuubags/) |
 | Helecho Collective | https://helechocollective.com | [@helecho.collective](https://www.instagram.com/helecho.collective/) |
 | Maracuyá | https://maracuyapr.com | [@maracuyaswimwearpr](https://www.instagram.com/maracuyaswimwearpr/) |
+| Carteras Perla Caribe | https://carterasperlacaribe.com/en | [@carterasperlacaribe](https://www.instagram.com/carterasperlacaribe/) |
 
 ## Also watch
 - Latin American celebrities who wear or post this kind of product: **Shakira, Sofía Vergara,

@@ -1,6 +1,6 @@
 ---
 name: price-benchmark
-description: Compare Osmossi bag prices with comparable bags at Coper Shop, Lombia, Helecho Collective and Maracuyá, and check Osmossi sits between mid and premium. Use monthly, before pricing proposals, bundles or promotions.
+description: Compare Osmossi bag prices with comparable bags at Coper Shop, Lombia, Helecho Collective, Maracuyá and Carteras Perla Caribe, and check Osmossi sits between mid and premium. Use monthly, before pricing proposals, bundles or promotions.
 ---
 
 # price-benchmark
