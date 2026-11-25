@@ -39,12 +39,22 @@ Exclusive · Unique · Original designs · Premium quality · Curated · Selecti
   | Secondary | Navy | `#243A4A` |
   | Secondary | Mustard Gold | `#C79A2E` |
 
+- **Canva brand kit:** "Osmossi" (`kAHOo0oQgAk`) holds the logo, colors and fonts. Always
+  design from it. If the kit is missing the logo or a font, stop and say so.
 - **Fonts:** Playfair Display (headlines, large titles); Lora (body, labels, small captions). Use
   the project's .ttf files. Never substitute. If the font files are missing, stop and say so.
+
+## Emojis
+Up to **two per caption**, elegant and polite (for example 🤍 ✨ 🌿 🎁 🇨🇴). Never more than two, never
+in a Pin title, never ones that could read as mocking, flirty, or cheap (no 🔥 💯 😂 💸).
 
 ## Company sources
 - Product and artisan facts come from SharePoint site **Leales** › `Documents/4 - Marketing`
   (folder `Fotos Productos Pagina Web` for product photos and details).
+- **Raw photos and clips for new content:** `4 - Marketing\Biblioteca generar contenido`.
+- **Finished posts:** `4 - Marketing\Biblioteca generar contenido\Final Posts\<YYYY>\<MM>`.
+- Artisan facts (names, communities, stories, photo consent): TODO(input), coming later. Until
+  then, say only "handwoven by Wayuu artisans in Colombia" or what the product page already says.
 - Search there first before writing captions, product descriptions or artisan stories. Do not
   pull from other SharePoint locations unless asked.
 

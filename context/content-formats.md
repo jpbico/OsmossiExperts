@@ -20,6 +20,9 @@ goal (awareness, engagement, saves, or traffic).
 - Reel cover: 1080×1920, key content centered so it reads in the 4:5 grid crop.
 - Export: JPG or PNG (sRGB) for images; MP4 (H.264, 30 fps) for video.
 - File names: `osmossi_[product]_[platform]_[ratio]_[v#]`.
+- Finals: SharePoint Leales › `4 - Marketing\Biblioteca generar contenido\Final Posts\<YYYY>\<MM>`
+  (for example `Final Posts\2026\11`).
+- Drafts and approval: `docs/andrea-content-handoff.md`.
 
 **Before posting:** true-to-life color, size and materials · logo as supplied · text readable and
 away from edges · origin facts true · caption, hashtags, alt text · link to osmossi.com ·

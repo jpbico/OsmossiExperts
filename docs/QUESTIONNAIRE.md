@@ -9,12 +9,9 @@ We fill this one agent at a time. Answers go into `context/` and each agent's fi
 - Open: minimum margin per order for bundles; product costs entered in Shopify?
 - Open: shipping carrier and handling time (for order-by dates).
 
-## 3 · Content Studio Agent
-1. Canva brand kit name; SharePoint "Leales" folder path for photos.
-2. "Osmossi grade": describe the photo look (or point to reference images).
-3. Reel style: length, music, captions, on-camera people vs product-only.
-4. Pinterest: boards that exist, pin formats.
-5. Hashtags / CTAs we always use.
+## 3 · Content Studio: done 2026-11-25
+- Open: artisan facts (names, communities, stories, photo consent) — partners will add later.
+- Open: Andrea creates the proposed Pinterest boards she wants.
 
 ## 4 · Distribution & Ads Agent
 1. Posting cadence per channel and best posting times.
