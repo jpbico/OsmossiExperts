@@ -23,7 +23,9 @@ Exclusive · Unique · Original designs · Premium quality · Curated · Selecti
 ## Wording rules
 - Say "handmade in small batches". Never "one of a kind" or "last one" (ERP month plan).
 - Osmossi curates; never "we make" or "our workshop".
-- No blanket discounts: use value offers instead.
+- No blanket (store-wide) discounts. A targeted discount Juan Pablo approved is fine; say it
+  exactly as set up in Shopify (amount, products, dates). Current: Black Days, 15% off Opalo
+  bum bags, Nov 26–30, 2026.
 - Every product post links to its product page (not the homepage), with UTM tags.
 
 ## Brand assets

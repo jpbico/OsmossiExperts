@@ -1,5 +1,10 @@
 # November 2026: pending decisions (Growth Planner recommendations)
 
+> **Update 2026-11-25: decision 1 was made differently.** Juan Pablo chose **"Black Days": 15%
+> off the 12 Opalo hand-beaded bum bags**, Thu Nov 26 12:00 am → Mon Nov 30 11:30 pm ET
+> (Shopify automatic discount "Black Friday Sale" on collection `black-days`), with a paid Meta
+> ad running. Gift wrapping / notes were not adopted. Decisions 2–4 remain open.
+
 Prepared 2026-11-19 for Juan Pablo (spend, offer) and Andrea (publishing). These are the four
 "Decisions pending" in the ERP month plan for 2026-11.
 
