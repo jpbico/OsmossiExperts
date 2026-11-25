@@ -16,8 +16,9 @@ Owner agent: `content-studio`.
 1. **Find candidates**: search the library for the product and the brief's scene. List them with
    a quick assessment: what works, what to fix, and the strongest shots. If nothing usable exists
    (blurry, color off, missing scene), say so and write a short shot list for a reshoot.
-2. **Bring them into Canva**: `upload-asset-from-url` (or `create-upload-url`) for each chosen
-   file. HEIC files may not import; if one fails, ask for a JPG export.
+2. **Bring them into Canva**: product photos from Shopify's public CDN with
+   `upload-asset-from-url`. SharePoint files cannot be sent to Canva from here: name them in the
+   draft for Andrea to add. (HEIC files may need a JPG export.)
 3. **Build the design from the brand kit**: Beige Sand and Green as main colors; Playfair Display
    for headlines, Lora for body; logo exactly as supplied, small, with enough contrast.
 4. **Grade** (in Canva's photo adjustments): slightly warm white balance, gentle contrast, lifted

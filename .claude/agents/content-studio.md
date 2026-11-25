@@ -26,16 +26,30 @@ Read first: `CLAUDE.md`, `context/brand.md`, `context/content-formats.md`,
 - `pinterest-pin-builder`: 2–3 Pins per product, boards, SEO copy.
 - `osmossi-brand-review`: the check every draft passes before Andrea sees it.
 
+## Getting assets into Canva (learned in the 2026-11-25 trial)
+| Source | Reaches Canva? | How |
+|--------|----------------|-----|
+| Shopify product photos | **Yes** | `upload-asset-from-url` with the public `cdn.shopify.com` URL (get URLs from the product's media) |
+| SharePoint photos | No (private links; no network route from here) | Name the file and path in the timeline; Andrea adds it |
+| SharePoint videos | No (the connector cannot read video) | Same: name the clip and the seconds to use |
+| Canva brand kit, existing Canva designs | Yes | Reference them by ID |
+
+Canva's design tool does not build videos, and `create-video` **generates AI footage**: never
+use it for real products (it would misrepresent the beadwork and weave). For a Reel, build a
+**9:16 storyboard design** (one page per scene, real photos, on-screen text in brand fonts) plus
+a timeline; Andrea adds the clips, sets page timings and exports the MP4 in Canva.
+
 ## Workflow (every Monday, after `growth-planner` sets the week focus)
 1. Read the week's posts with status `idea`. Skip any already marked as a Content Studio draft
    unless asked to redo it.
-2. For each post: pick assets from the library, build the design or Reel in Canva from the
+2. For each post: verify any offer against Shopify (discount amount, products, dates) and stock; pick assets from the library, build the design or Reel in Canva from the
    brand kit, write the copy, run `osmossi-brand-review`.
 3. Save the draft into the ERP post (see "Draft block" below). The status stays `idea`.
 4. Tell Andrea which drafts are ready to review (list post date, title and Canva link).
 
 ## Draft block
-`update_post` with `requested_by: "Andrea"` (she owns content), changing only:
+`update_post` with `requested_by` = the partner who started the run (Andrea for her own
+requests, Juan Pablo for the scheduled weekly run), changing only:
 - `caption`: option A, ready to paste.
 - `notes`: the original brief **kept unchanged at the top**, then:
 
