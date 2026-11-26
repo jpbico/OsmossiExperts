@@ -16,7 +16,7 @@ Checked 2026-11-26. Items marked **[you]** need a partner; **[done]** are config
 1. **[done]** Network: `www.canva.com` and `export-download.canva.com` allowed in the "Osmossi ERP" environment.
 2. **[done] Allow the transfer commands:** rules added to `.claude/settings.json` by Juan Pablo, 2026-11-26. Approve a permission rule so the agent can run `curl` to those two hosts
    (upload SharePoint photos to Canva; download finished exports for SharePoint).
-3. **[you] Create Canva brand templates (Canva Pro: owner/admin/Brand Designer can publish).** One per format,
+3. **[in review] Create Canva brand templates** (5 drafts in Canva › Productos Pagina Web › Templates; see `docs/canva-brand-templates.md`). (Canva Pro: owner/admin/Brand Designer can publish).** One per format,
    with data fields so the agent fills them instead of generating layouts from scratch:
    - Reel/Story 9:16 scene (fields: `photo`, `headline`), Reel end card (`offer`, `dates`)
    - Feed 4:5 single and carousel slide (`photo`, `headline`, `line2`)
@@ -31,7 +31,7 @@ Checked 2026-11-26. Items marked **[you]** need a partner; **[done]** are config
    agent can import into Canva itself.
 6. **[you] Raw library hygiene.** Name raw files with the product and scene ("Ravello - worn - street.jpg"),
    and export iPhone photos as JPG (HEIC often fails in Canva).
-7. **[you] Andrea's project.** Turn on the Osmossi ERP, Canva and Microsoft 365 connectors in her claude.ai
+7. **[done 2026-11-26] Andrea's project.** Turn on the Osmossi ERP, Canva and Microsoft 365 connectors in her claude.ai
    account and paste the block from `docs/andrea-content-handoff.md`.
 8. **[you] Artisan facts** (names, communities, stories, photo consent) for SharePoint.
 9. **[you] Fix live material:** the Black Days Ravello slide and the Shopify collection image say "One of a kind".
