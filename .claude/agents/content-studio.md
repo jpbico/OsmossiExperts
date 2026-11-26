@@ -1,7 +1,7 @@
 ---
 name: content-studio
 description: Osmossi Content Studio agent. Use to turn the week's ERP calendar briefs into ready-to-review drafts - Canva designs and Reels built from the SharePoint content library, captions, hashtags, alt text and Pinterest copy - brand-check them, save them into the ERP post for Andrea, and file finals in SharePoint.
-tools: Read, Write, Edit, Glob, Grep, mcp__Osmossi_ERP__get_week_focus, mcp__Osmossi_ERP__list_posts, mcp__Osmossi_ERP__get_post, mcp__Osmossi_ERP__update_post, mcp__Osmossi_ERP__search_products, mcp__Osmossi_ERP__list_trends, mcp__Canva__list-brand-kits, mcp__Canva__search-brand-templates, mcp__Canva__create-design-from-brand-template, mcp__Canva__generate-design-structured, mcp__Canva__create-design, mcp__Canva__edit-design, mcp__Canva__read-design, mcp__Canva__resize-design, mcp__Canva__search-designs, mcp__Canva__get-assets, mcp__Canva__upload-asset-from-url, mcp__Canva__create-upload-url, mcp__Canva__get-export-formats, mcp__Canva__export-design, mcp__Canva__comment-on-design, mcp__Canva__create-folder, mcp__Canva__move-item-to-folder, mcp__Microsoft_365__sharepoint_search, mcp__Microsoft_365__sharepoint_folder_search, mcp__Microsoft_365__read_resource, mcp__Microsoft_365__sharepoint_create_folder, mcp__Microsoft_365__sharepoint_upload_file
+tools: Read, Write, Edit, Glob, Grep, mcp__Osmossi_ERP__get_week_focus, mcp__Osmossi_ERP__list_posts, mcp__Osmossi_ERP__get_post, mcp__Osmossi_ERP__update_post, mcp__Osmossi_ERP__search_products, mcp__Osmossi_ERP__list_trends, mcp__Canva__list-brand-kits, mcp__Canva__search-brand-templates, mcp__Canva__create-design-from-brand-template, mcp__Canva__generate-design-structured, mcp__Canva__create-design, mcp__Canva__edit-design, mcp__Canva__read-design, mcp__Canva__resize-design, mcp__Canva__search-designs, mcp__Canva__get-assets, mcp__Canva__upload-asset-from-url, mcp__Canva__create-upload-url, mcp__Canva__get-export-formats, mcp__Canva__export-design, mcp__Canva__comment-on-design, mcp__Canva__create-folder, mcp__Canva__move-item-to-folder, mcp__Canva__list-folder-items, mcp__Microsoft_365__sharepoint_search, mcp__Microsoft_365__sharepoint_folder_search, mcp__Microsoft_365__read_resource, mcp__Microsoft_365__sharepoint_create_folder, mcp__Microsoft_365__sharepoint_upload_file
 skills:
   - brand-voice-copy
   - photo-edit
@@ -25,6 +25,25 @@ CLAUDE.md loads automatically. Read first: `context/brand.md`, `context/content-
 | Raw photos and clips | SharePoint Leales › `4 - Marketing\Biblioteca generar contenido` |
 | Product facts | ERP `search_products`; product page `osmossi.com/product/<handle>` |
 | Finished files | SharePoint › `...\Biblioteca generar contenido\Final Posts\<YYYY>\<MM>` |
+| Canva drafts / finals | By brand of the hero product, see "Canva folders" below |
+
+## Canva folders (filed by brand of the post's hero product)
+Path: `Productos Pagina Web › <Brand> › Borradores|Finales › <YYYY> › <MM Mes>`.
+New drafts go to the draft month folder; when Andrea approves, move the design to the finals
+month folder (`move-item-to-folder`). A post mixing brands goes to the hero product's brand.
+If the month folder is missing, create it under the year folder with `create-folder`
+(names: `01 Enero` … `12 Diciembre`), and add its ID to this table.
+
+| Brand | Borradores | Finales |
+|-------|-----------|---------|
+| Opalo (root) | `FAHW_ZuT60Q` | `FAHW_Z4T8C4` |
+| Opalo 2026 | `FAHb_C4AVyw` | `FAHb_K0Q2xU` |
+| Opalo 2026 › 11 Noviembre | `FAHb_Mnbzd4` | `FAHb_NpumPM` |
+| Opalo 2026 › 12 Diciembre | `FAHb_Fz2BEk` | `FAHb_F2wslY` |
+| Pausayu (root) | `FAHW_U_1FgQ` | `FAHW_Zuds4I` |
+| Pausayu 2026 | `FAHb_KjWq9U` | `FAHb_H3YauU` |
+| Pausayu 2026 › 11 Noviembre | `FAHb_PvRCiY` | `FAHb_J6cNII` |
+| Pausayu 2026 › 12 Diciembre | `FAHb_NUlQiU` | `FAHb_Bfn5LE` |
 
 ## Skills
 - `brand-voice-copy`: captions, hashtags, alt text, Pinterest title and description.
@@ -37,8 +56,8 @@ CLAUDE.md loads automatically. Read first: `context/brand.md`, `context/content-
 | Source | Reaches Canva? | How |
 |--------|----------------|-----|
 | Shopify product photos | **Yes** | `upload-asset-from-url` with the public `cdn.shopify.com` URL (get URLs from the product's media) |
-| SharePoint photos | No (private links; no network route from here) | Name the file and path in the timeline; Andrea adds it |
-| SharePoint videos | No (the connector cannot read video) | Same: name the clip and the seconds to use |
+| SharePoint photos | Yes, once the curl permission rule is in `.claude/settings.json` | `read_resource` saves the image locally → `create-upload-url` → `curl -X POST --data-binary @file` to that URL |
+| SharePoint videos | No (the connector cannot read video; Canva's Drive/Dropbox/OneDrive links don't take video either) | Name the clip and the seconds to use; Andrea uploads clips from her phone to Canva |
 | Canva brand kit, existing Canva designs | Yes | Reference them by ID |
 
 Canva's design tool does not build videos, and `create-video` **generates AI footage**: never

@@ -14,7 +14,7 @@ Checked 2026-11-26. Items marked **[you]** need a partner; **[done]** are config
 
 ## Checklist
 1. **[done]** Network: `www.canva.com` and `export-download.canva.com` allowed in the "Osmossi ERP" environment.
-2. **[you] Allow the transfer commands.** Approve a permission rule so the agent can run `curl` to those two hosts
+2. **[you] Allow the transfer commands** (approved by Juan Pablo 2026-11-26; the agent may not write its own permission rules, so add the block in the summary to `.claude/settings.json` yourself). Approve a permission rule so the agent can run `curl` to those two hosts
    (upload SharePoint photos to Canva; download finished exports for SharePoint).
 3. **[you] Create Canva brand templates (Canva Pro: owner/admin/Brand Designer can publish).** One per format,
    with data fields so the agent fills them instead of generating layouts from scratch:
@@ -22,10 +22,13 @@ Checked 2026-11-26. Items marked **[you]** need a partner; **[done]** are config
    - Feed 4:5 single and carousel slide (`photo`, `headline`, `line2`)
    - Pinterest 1000×1500 (`photo`, `overlay`)
    Logo, fonts and colors locked in each template. The agent then uses `autofill-design`.
-4. **[you] Canva folders for the agent.** Canva has two "Borradores" and two "Finales" folders. Pick one
-   drafts folder and one finals folder (or confirm `Instagram › 2026 › <Mes>`), so drafts stop landing in the root.
-5. **[you] Video clips.** SharePoint videos can't reach Canva through the connector. Options: upload new clips
-   straight to a Canva folder (e.g. `Clips`) from your phone, or keep adding them by hand while finishing a Reel.
+4. **[done] Canva folders:** by brand, `Productos Pagina Web › Opalo|Pausayu › Borradores|Finales › 2026 ›
+   11 Noviembre / 12 Diciembre` (IDs in the agent file).
+5. **[you] Video clips.** No connector can move video into Canva for the agent (SharePoint can't read video;
+   Canva's Google Drive / Dropbox / OneDrive connections don't accept video, per Canva Help 2026-11-26).
+   Upload clips from the phone in the Canva app (Uploads, or Add media in the video editor) so they're ready
+   when Andrea finishes a Reel. Optional: clips uploaded to Shopify › Content › Files get a public link the
+   agent can import into Canva itself.
 6. **[you] Raw library hygiene.** Name raw files with the product and scene ("Ravello - worn - street.jpg"),
    and export iPhone photos as JPG (HEIC often fails in Canva).
 7. **[you] Andrea's project.** Turn on the Osmossi ERP, Canva and Microsoft 365 connectors in her claude.ai
