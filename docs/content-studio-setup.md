@@ -7,14 +7,14 @@ Checked 2026-11-26. Items marked **[you]** need a partner; **[done]** are config
 |-------|--------|------|
 | Shopify product photos → Canva | Yes | Public CDN link + `upload-asset-from-url` (used in the trial) |
 | SharePoint photos → this session | Yes | The connector saves JPG/PNG at full size (1080×1080 checked) |
-| SharePoint photos → Canva | Pending approval | Needs a direct upload to Canva from this session (hosts allowed; command needs a permission rule) |
+| SharePoint photos → Canva | **Yes** | Tested 2026-11-26: gift box photo uploaded at full 1080×1080 |
 | SharePoint videos → anywhere | No | The connector can't read video files |
-| Canva export → this session | Pending approval | Same permission rule |
+| Canva export → this session | **Yes** | Tested 2026-11-26: JPG export downloaded (230 KB) |
 | This session → SharePoint | Yes, up to 1 MB | JPG posts fit; Reels (MP4) don't |
 
 ## Checklist
 1. **[done]** Network: `www.canva.com` and `export-download.canva.com` allowed in the "Osmossi ERP" environment.
-2. **[you] Allow the transfer commands** (approved by Juan Pablo 2026-11-26; the agent may not write its own permission rules, so add the block in the summary to `.claude/settings.json` yourself). Approve a permission rule so the agent can run `curl` to those two hosts
+2. **[done] Allow the transfer commands:** rules added to `.claude/settings.json` by Juan Pablo, 2026-11-26. Approve a permission rule so the agent can run `curl` to those two hosts
    (upload SharePoint photos to Canva; download finished exports for SharePoint).
 3. **[you] Create Canva brand templates (Canva Pro: owner/admin/Brand Designer can publish).** One per format,
    with data fields so the agent fills them instead of generating layouts from scratch:

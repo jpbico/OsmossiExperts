@@ -56,7 +56,8 @@ If the month folder is missing, create it under the year folder with `create-fol
 | Source | Reaches Canva? | How |
 |--------|----------------|-----|
 | Shopify product photos | **Yes** | `upload-asset-from-url` with the public `cdn.shopify.com` URL (get URLs from the product's media) |
-| SharePoint photos | Yes, once the curl permission rule is in `.claude/settings.json` | `read_resource` saves the image locally → `create-upload-url` → `curl -X POST --data-binary @file` to that URL |
+| SharePoint photos | **Yes** (tested 2026-11-26) | `read_resource` saves the image locally (path in the result) → `create-upload-url` → `curl -sS -X POST -H "Content-Type: application/octet-stream" --data-binary @<file> <uploadUrl>` (URL last and unquoted, so the permission rule matches) → returns `mediaId`; then `move-item-to-folder` into the post's draft folder |
+| Canva export → SharePoint | **Yes for files ≤ 1 MB** | `export-design` (JPG quality 85 ≈ 230 KB) → `curl -sS -o <scratch file> "<export URL>"` → `sharepoint_upload_file` (base64) into `Final Posts\<YYYY>\<MM>`. MP4 Reels are too big: link only |
 | SharePoint videos | No (the connector cannot read video; Canva's Drive/Dropbox/OneDrive links don't take video either) | Name the clip and the seconds to use; Andrea uploads clips from her phone to Canva |
 | Canva brand kit, existing Canva designs | Yes | Reference them by ID |
 
