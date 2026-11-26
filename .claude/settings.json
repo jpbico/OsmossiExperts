@@ -1,1 +1,8 @@
-{}
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl * https://www.canva.com/_blob/upload/*)",
+      "Bash(curl * https://export-download.canva.com/*)"
+    ]
+  }
+}
