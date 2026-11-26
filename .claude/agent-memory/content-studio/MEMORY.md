@@ -8,3 +8,4 @@
 - SharePoint videos can't be read; Andrea uploads clips to Canva from her phone.
 - Drafts are filed by brand of the hero product: Productos Pagina Web › Opalo|Pausayu › Borradores › YYYY › MM Mes.
 - Black Days slide and Shopify collection image say "One of a kind" (banned) — flagged to partners 2026-11-25.
+- Images uploaded through create-upload-url can't be moved into folders (Canva: 'Not allowed to access this folder'); they stay in Uploads. Designs can be moved.
