@@ -14,7 +14,7 @@ Owner agent: `growth-planner`.
 3. Hats and home decor support gift guides and moments; they are not heroes.
 
 ## Steps
-1. Pull bags live from Shopify: `search_products` with `product_type:"Handwoven Bags" AND status:active`.
+1. Pull bags live from Shopify: `graphql_query` (e.g. `products(first: 50, query: "product_type:'Handwoven Bags' AND status:active")` with `title handle totalInventory priceRangeV2`).
    Keep only `totalInventory ≥ 1`.
 2. For each candidate, score:
    - **Line priority** (above): bum bag 3, other bag 2, other 1.

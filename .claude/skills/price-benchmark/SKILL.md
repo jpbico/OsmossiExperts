@@ -8,7 +8,7 @@ description: Compare Osmossi bag prices with comparable bags at Coper Shop, Lomb
 Owner agent: `market-intelligence`. Runs monthly or on request.
 
 ## Inputs
-- Osmossi bags with live prices: Shopify `search_products` with `product_type:"Handwoven Bags"`
+- Osmossi bags with live prices: Shopify `graphql_query` (e.g. `products(first: 50, query: "product_type:'Handwoven Bags' AND status:active")` with `title handle totalInventory priceRangeV2`)
 - Competitor sites: `context/market-watchlist.md`
 
 ## Target position

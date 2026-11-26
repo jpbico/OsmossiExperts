@@ -1,6 +1,6 @@
 ---
 name: meta-campaign-builder
-description: Draft Meta (Facebook/Instagram) campaigns: objective, audience, budget, creative and UTM links. Use when planning paid promotion.
+description: "Draft Meta (Facebook/Instagram) campaigns: objective, audience, budget, creative and UTM links. Use when planning paid promotion."
 ---
 
 # meta-campaign-builder

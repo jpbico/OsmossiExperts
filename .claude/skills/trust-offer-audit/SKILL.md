@@ -1,6 +1,6 @@
 ---
 name: trust-offer-audit
-description: Audit trust signals and offers on the store: installments, shipping, returns, reviews, badges. Use monthly or when conversion drops.
+description: "Audit trust signals and offers on the store: installments, shipping, returns, reviews, badges. Use monthly or when conversion drops."
 ---
 
 # trust-offer-audit

@@ -1,6 +1,6 @@
 ---
 name: product-page-optimizer
-description: Propose improvements to Osmossi product pages: titles, descriptions, image order, FAQs, SEO. Use for pages receiving campaign traffic.
+description: "Propose improvements to Osmossi product pages: titles, descriptions, image order, FAQs, SEO. Use for pages receiving campaign traffic."
 ---
 
 # product-page-optimizer

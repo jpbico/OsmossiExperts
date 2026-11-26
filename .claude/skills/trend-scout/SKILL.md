@@ -10,7 +10,7 @@ Owner agent: `market-intelligence`. Runs weekly and writes to the ERP Trends boa
 ## Inputs
 - Hashtags, accounts and the moments calendar: `context/market-watchlist.md`
 - Existing trends: `mcp__Osmossi_ERP__list_trends`
-- The catalog (to say which product fits): Shopify `search_products`
+- The catalog (to say which product fits): ERP `search_products` (titles) or Shopify `graphql_query`
 
 ## Steps
 1. **Moments:** list moments in the next 6 weeks from the calendar. Each one becomes a trend
